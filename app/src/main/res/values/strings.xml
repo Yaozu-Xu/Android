@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Team3</string>
+    <string name="login">Login</string>
+    <string name="offline">offLine</string>
+    <string name="sign_in">Sign In</string>
+    <string name="user_icon">\uf007</string>
+    <string name="reg_submit">Submit</string>
+    <string name="back">\uf104</string>
+    <string name="swim">Swim</string>
+    <string name="appbar_scrolling_view_behavior">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="title_activity_analysis">AnalysisActivity</string>
+</resources>

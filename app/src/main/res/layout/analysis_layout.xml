@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AnalysisActivity">
+
+
+    <include
+        layout="@layout/index_header"/>
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/swim"/>
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/cyc"/>
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="170dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/run"/>
+
+    <TextView
+        android:id="@+id/swim_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="75dp"
+        android:textSize="20dp"
+        android:textColor="#161515"
+        android:text="4 times"
+        android:layout_marginLeft="80dp"/>
+
+    <TextView
+        android:id="@+id/cyc_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp"
+        android:textSize="20dp"
+        android:textColor="#161515"
+        android:text="4 times"
+        android:layout_marginLeft="80dp"/>
+
+    <TextView
+        android:id="@+id/run_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="175dp"
+        android:textSize="20dp"
+        android:textColor="#161515"
+        android:text="4 times"
+        android:layout_marginLeft="80dp"/>
+
+</android.support.design.widget.CoordinatorLayout>

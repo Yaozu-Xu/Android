@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".IndexActivity">
+
+    <include
+        layout="@layout/index_header">
+    </include>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/wrapper_1"
+        android:background="@drawable/divider">
+
+        <ImageView
+            android:id="@+id/display_img"
+            android:layout_marginTop="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/running"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/new_btn"
+            android:text="New Record"
+            android:id="@+id/record_create_btn"
+            android:textAllCaps="false"
+            android:textSize="24sp"
+            android:textColor="@color/colorOrange"
+            android:layout_below="@+id/display_img"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/wrapper_1">
+
+        <ImageView
+            android:id="@+id/user_icon"
+            android:layout_width="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_height="40dp"
+            android:background="@drawable/user_icon"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:paddingLeft="35dp"
+            android:textSize="28sp"
+            android:textColor="#1A1818"
+            android:id="@+id/name_text"
+            android:text="">
+        </TextView>
+
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_below="@+id/user_icon"
+            android:background="@drawable/calendar"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+
+        <TextView
+            android:layout_below="@+id/user_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginLeft="50dp"
+            android:paddingLeft="35dp"
+            android:textSize="24sp"
+            android:textColor="#E91E63"
+            android:text="3 days">
+        </TextView>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
